@@ -75,9 +75,9 @@ document.addEventListener("DOMContentLoaded", () => {
     document.getElementById('p-kota_tanggal').innerHTML = 'Bandung, 30 Januari 2026';
     document.getElementById('p-subjek').innerHTML = 'Programmer';
     document.getElementById('p-penerima').innerHTML = 'HRD Manager<br>Jl.Antapani No.5<br>Bandung';
-    document.getElementById('p-pembuka').innerHTML = 'Dengan hormat bapak/ibu';
-    document.getElementById('p-isi').innerHTML = 'Dengan surat lamaran ini';
-    document.getElementById('p-penutup').innerHTML = 'Saya harap';
+    document.getElementById('p-pembuka').innerHTML = 'Berdasarkan informasi yang saya peroleh melalui LinkedIn perusahaan pada [Tanggal], saya bermaksud mengajukan lamaran pekerjaan sebagai [Nama Posisi] di [Nama Perusahaan].';
+    document.getElementById('p-isi').innerHTML = 'Saya adalah lulusan [Jurusan] dengan pengalaman [Jumlah Tahun] tahun di bidang terkait. Selama pengalaman sebelumnya, saya berhasil [Sebutkan pencapaian/keahlian khusus], yang saya yakin sesuai dengan kebutuhan tim [Nama Perusahaan].';
+    document.getElementById('p-penutup').innerHTML = 'Terima kasih atas pertimbangan Bapak/Ibu. Saya sangat berharap dapat mendiskusikan kualifikasi saya lebih detail dalam sesi wawancara. Hormat saya, [Nama Anda]';
     document.getElementById('p-penyusun').innerHTML = 'Rizqiaa';
 
     // Focus ke field pertama
