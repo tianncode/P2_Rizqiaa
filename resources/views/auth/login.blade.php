@@ -52,7 +52,7 @@
                             <div class="border-bottom border-gray-200 w-100"></div>
                         </div>
 
-                        <form class="form w-100" action="/dashboard" method="post">
+                        <form class="form w-100" action="/login" method="post">
                             @csrf
                             @if (session()->has('loginError'))
                                 <div class="alert alert-danger border-0 bg-light-danger text-danger mb-5 fs-7 rounded-3"
