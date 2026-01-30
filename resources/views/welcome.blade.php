@@ -75,9 +75,8 @@
                 </div>
 
                 <div class="info-header">
-
+                    <h2><span id="p-fase">JOB APPLICATION LETTER</span></h2><br>
                     <div class="info-text">
-                        <h2><span id="p-fase">JOB APPLICATION LETTER</span></h2><br>
                         <p><span id="p-kota_tanggal">Bandung, 30 Januari 2026</span></p>
                     </div>
                 </div>
