@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Job Applications Letter</title>
+    <title>Rizqiaa Job Applications Letter</title>
     <link rel="stylesheet" href="{{ asset('css/preview.css') }}">
 </head>
 
