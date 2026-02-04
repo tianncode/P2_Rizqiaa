@@ -1,15 +1,5 @@
 <!DOCTYPE html>
-<!--
-Author: Keenthemes
-Product Name: BlazeProduct Version: 1.0.4
-Purchase: https://keenthemes.com/products/blaze-html-pro
-Website: http://www.keenthemes.com
-Contact: support@keenthemes.com
-Follow: www.twitter.com/keenthemes
-Dribbble: www.dribbble.com/keenthemes
-Like: www.facebook.com/keenthemes
-License: For each use you must have a valid license purchased only from above link in order to legally use the theme for your project.
--->
+
 <html lang="en">
 <!--begin::Head-->
 
@@ -18,7 +8,7 @@ License: For each use you must have a valid license purchased only from above li
 <meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
 
 <head>
-    <title>Rizqiaa</title>
+    <title>Rizqiaa | Umrah & Haji</title>
     <meta charset="utf-8" />
     <meta name="description"
         content="Blaze admin dashboard live demo. Check out all the features of the admin panel. A large number of settings, additional services and widgets." />
