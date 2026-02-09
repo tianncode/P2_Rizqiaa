@@ -26,9 +26,6 @@
 
     <!--begin::Fonts(mandatory for all pages)-->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter:300,400,500,600,700" />
-    <!--end::Fonts-->
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <!-- Font Awesome 6.5.0 (versi terbaru) -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
         integrity="sha512-4oV1I9D7m+2lxj2JQFb8p+P3oX9CkMvYnKohQrsV7H6p2LgrYvq8Xb8a5eY6zK07XAjP4RHvT1kqcc3VhMwNnA=="
@@ -103,13 +100,13 @@
     </script>
 
     <!--begin::Global Javascript Bundle(mandatory for all pages)-->
-    <script src="../../assets/plugins/global/plugins.bundle.js"></script>
-    <script src="../../assets/js/scripts.bundle.js"></script>
+    <script src="{{ asset('assets/plugins/global/plugins.bundle.js') }}"></script>
+    <script src="{{ asset('assets/js/scripts.bundle.js') }}"></script>
     <!--end::Global Javascript Bundle-->
 
 
     <!--begin::Custom Javascript(used for this page only)-->
-    <script src="../../assets/js/custom/authentication/sign-in/general.js"></script>
+    <script src="{{ asset('assets/js/custom/authentication/sign-in/general.js') }}"></script>
     <!--end::Custom Javascript-->
     <!--end::Javascript-->
 </body>

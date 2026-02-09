@@ -2179,10 +2179,16 @@ License: For each use you must have a valid license purchased only from above li
 
                             <!--begin::Menu item-->
                             <div class="menu-item px-5">
-                                <a href="index5b43.html?page=authentication/sign-in/basic" class="menu-link px-5">
+                                <a href="{{ route('logout') }}" class="menu-link px-5"
+                                    onclick="event.preventDefault(); document.getElementById('logout-form').submit();">
                                     Sign Out
                                 </a>
                             </div>
+
+                            <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
+                                @csrf
+                            </form>
+
                             <!--end::Menu item-->
                         </div>
                         <!--end::User account menu-->

@@ -31,7 +31,8 @@
                                 Please sign in to your account.
                                 <div class="mt-2">
                                     Don't have an account?
-                                    <a href="/register" class="fw-bold" style="color: #0F4C75; text-decoration: none;">
+                                    <a href="{{ route('register') }}" class="fw-bold"
+                                        style="color: #0F4C75; text-decoration: none;">
                                         Sign up here
                                     </a>
                                 </div>
@@ -55,25 +56,22 @@
                             <div class="border-bottom border-gray-200 w-100"></div>
                         </div>
 
-                        <form class="form w-100" action="/login" method="post">
+                        <form class="form w-100" action="{{ url('/login') }}" method="post">
                             @csrf
                             @if (session()->has('loginError'))
-                                <div class="alert alert-danger border-0 bg-light-danger text-danger mb-5 fs-7 rounded-3"
-                                    role="alert">
+                                <div class="alert alert-danger mb-5">
                                     {{ session('loginError') }}
                                 </div>
                             @endif
 
-                            <div class="fv-row mb-5">
+                            <div class="mb-5">
                                 <input type="email" name="email" placeholder="Email"
-                                    class="form-control form-control-lg bg-light border-0 @error('email') is-invalid @enderror"
-                                    style="background-color: #F6F8FA !important; border-radius: 10px; padding: 1.1rem; box-shadow: inset 2px 2px 5px rgba(0, 0, 0, 0.05); color: #3F4254; font-weight: 500;" />
+                                    class="form-control @error('email') is-invalid @enderror" />
                             </div>
 
-                            <div class="fv-row mb-8">
+                            <div class="mb-8">
                                 <input type="password" name="password" placeholder="Password"
-                                    class="form-control form-control-lg bg-light border-0 @error('password') is-invalid @enderror"
-                                    style="background-color: #F6F8FA !important; border-radius: 10px; padding: 1.1rem; box-shadow: inset 2px 2px 5px rgba(0, 0, 0, 0.05); color: #3F4254; font-weight: 500;" />
+                                    class="form-control @error('password') is-invalid @enderror" />
                             </div>
 
                             <button type="submit" class="btn btn-lg w-100 mb-8 py-4 shadow-sm"
@@ -81,6 +79,7 @@
                                 Sign In
                             </button>
                         </form>
+
 
                         <div class="text-center text-gray-400 fw-medium fs-8 px-5">
                             I agree to abide by templatana's <a href="#"
